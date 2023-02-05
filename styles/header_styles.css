@@ -1,0 +1,95 @@
+/*CABEÇALHO*/
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Cor_-_Preto);
+    width: 100vw;
+}
+
+.container_logo_e_navegacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8em 0 1.2em;
+}
+
+.cabecalho_logo{
+    width: 112px;
+    height: 105px;
+}
+
+.cabecalho_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.cabecalho_links_item{
+    font-family: var(--Fonte_-_Titulos);
+    color: var(--Cor_-_Branco);
+    display: flex;
+    align-items: center;
+    padding-left: 0.5em;
+}
+
+#links_item_03{
+    padding: 0 1em 0 0;
+}
+
+.cabecalho_icones{
+    padding: 0 0.3em;
+}
+
+#icone_localizacao{
+    height: 1em;
+}
+
+#icone_seta_baixo{
+    height: 0.6em;
+}
+
+#cabecalho_pesquisa{
+    background: transparent;
+    min-width: 180px;
+    width: 75vw;
+    max-width: 360px;
+    border: 1px solid var(--Cor_-_Branco);
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+#cabecalho_pesquisa::placeholder{
+    font-family: var(--Fonte_-_Textos);
+    font-size: 16px;
+    font-weight: 400;
+    background: url("../assets/img/Mobile/Ícones/Ícone\ busca.png") no-repeat;
+    background-position: right;
+}
+
+@media screen and (min-width: 720px){
+    .container_logo_e_navegacao{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 0.8em 0;
+    }
+
+    .cabecalho_logo{
+        margin-left: 24px;
+    }
+
+    .cabecalho_links{
+        justify-content: space-between;
+        margin-right: 24px;
+        max-width: 66vw;
+    }
+
+    #links_item_03{
+        padding: 0;
+    }
+}

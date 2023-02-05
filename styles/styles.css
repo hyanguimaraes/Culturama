@@ -1,10 +1,30 @@
 /*IMPORTAÇÃO DOS OUTROS ARQUIVOS CSS QUE COMPÕEM O PROJETO*/
 @import url("reset.css");
+@import url("header_styles.css");
 
 /*DADOS BASE*/
 :root{
     /*CORES*/
-
+    --Cor_-_Preto: #000000;
+    --Cor_-_Branco: #FFFFFF;
+    --Cor_-_Cinza_claro: #C2C2C2;
+    --Cor_-_Cinza_escuro: #959595;
+    --Cor_-_Amarelo: #FFC756;
+    --Cor_-_Verde: #56B78C;
+    --Cor_-_Azul: #7F8FFE;
+    --Cor_-_Vermelho: #FE652B;
     /*FONTES*/
+    --Fonte_-_Titulos: 'Fjalla One', sans-serif;
+    --Fonte_-_Textos: 'Work Sans', sans-serif;
+}
 
+body{
+    font-family: var(--Fonte_-_Textos);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Cor_-_Preto);
+}
+
+main{
+    margin: 0 24px;
 }

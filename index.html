@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- TÍTULO -->
     <title>Culturama</title>
+
     <!-- ÍCONE NO TÍTULO -->
-    <link rel="icon" href="assets/img/" type = "image/x-icon">
+    <link rel="icon" href="assets/img/Favicon_colorido.png" type = "image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 
     <!-- FONTES -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    
+    <nav class="cabecalho">
+        <div class="container_logo_e_navegacao">
+            <img src="assets/img/Logo_Culturama_branco.png" alt="Logo Culturama na cor branca" class="cabecalho_logo">
+            <ul class="cabecalho_links">
+                <li class="cabecalho_links_item">Programação</li>
+                <li class="cabecalho_links_item">Categorias</li>
+                <li class="cabecalho_links_item" id="links_item_03">
+                    <img src="assets/img/Mobile/Ícones/Ícone localização.png" alt="Silhueta de ícone de localização" class="cabecalho_icones" id="icone_localizacao">
+                    <p>Seu local</p>
+                    <img src="assets/img/Mobile/Ícones/ícone seta baixo.png" alt="Seta para baixo" class="cabecalho_icones" id="icone_seta_baixo">
+                </li>
+            </ul>
+        </div>
+        <input type="search" id="cabecalho_pesquisa" placeholder="O que você procura?">
+    </nav>
 </body>
 </html>
