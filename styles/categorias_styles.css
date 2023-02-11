@@ -1,0 +1,28 @@
+/* CATEGORIAS */
+
+.categorias{
+    margin-top: 1.5em;
+}
+
+.categorias_titulo{
+    margin-bottom: 1rem;
+}
+
+.categorias_lista{
+    color: white;
+    text-align: center;
+}
+
+.categorias_item{
+    padding: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.5s;
+    opacity: 1;
+    min-width: 282px;
+}
+
+.categorias_item:hover{
+    opacity: 0.7s;
+}

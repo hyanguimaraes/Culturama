@@ -2,6 +2,7 @@
 @import url("reset.css");
 @import url("header_styles.css");
 @import url("banners_styles.css");
+@import url("categorias_styles.css");
 
 /*DADOS BASE*/
 :root{
