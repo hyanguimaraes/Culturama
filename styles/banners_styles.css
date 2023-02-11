@@ -1,0 +1,32 @@
+/*BANNERS*/
+.banners img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banners{
+    display: grid;
+    gap: 1em;
+}
+
+.banners img:nth-child(1){
+    grid-column: 1/3;
+}
+
+.banners img:nth-child(4){
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+@media screen and (min-width: 720px){
+    .banners img:nth-child(1){
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .banners img:nth-child(4){
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+}

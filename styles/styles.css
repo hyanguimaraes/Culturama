@@ -1,6 +1,7 @@
 /*IMPORTAÇÃO DOS OUTROS ARQUIVOS CSS QUE COMPÕEM O PROJETO*/
 @import url("reset.css");
 @import url("header_styles.css");
+@import url("banners_styles.css");
 
 /*DADOS BASE*/
 :root{
@@ -31,5 +32,17 @@ body{
 }
 
 main{
-    margin: 0 24px;
+    margin: 0 1.5em;
+}
+
+@media screen and (min-width: 720px){
+    main{
+        margin: 0 2.5em;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    main{
+        margin: 0 7.5em;
+    }
 }

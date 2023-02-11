@@ -1,8 +1,7 @@
 /*CABEÇALHO*/
 
-.cabecalho_Menu{
+.cabecalho_menu{
     width: 100vw;
-    height: 258px;
     background-color: var(--Cor_-_Preto);
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +19,10 @@
     padding: 40px 100px;
     width: 100%;
     cursor: pointer;
+}
+
+.cabecalho_menu_item{
+    padding: 1em 0;
 }
 
 .cabecalho_menu_item a{
@@ -74,4 +77,51 @@
     width: 98%;
     line-height: 25px;
     padding-left: 5px;
+}
+
+@media screen and (min-width: 720px){
+    .cabecalho_menu{
+        padding: 0 2.5em;
+        column-gap: 75px;
+    }
+
+    .cabecalho_titulo{
+        margin-left: 0;
+        padding: 40px 50px;
+    }
+
+    .item_pesquisar{
+        max-width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1440px){
+    .cabecalho_menu{
+        column-gap: 105px;
+        flex-wrap: nowrap;
+        padding: 0  7.5em;
+    }
+
+    .cabecalho_titulo{
+        order: 0;
+    }
+
+    .item_pesquisar{
+        max-width: 33%;
+        margin-bottom: 0;
+        order: 1;
+    }
+
+    .cabecalho_menu_item:nth-child(2){
+        order: 2;
+    }
+
+    .cabecalho_menu_item:nth-child(3){
+        order: 3;
+    }
+
+    .cabecalho_menu_item:nth-child(4){
+        order: 4;
+    }
 }
