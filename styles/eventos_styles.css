@@ -1,0 +1,56 @@
+/* EVENTOS */
+
+.eventos_titulo{
+    margin-bottom: 1rem;
+}
+
+.eventos_item{
+    background-color: var(--Cor_-_Cinza_claro);
+    width: 307px;
+    height: 318px;
+    padding-bottom: 1rem;    
+}
+
+.eventos_item img{
+    width: 100%;
+}
+
+.eventos_item h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.eventos_item h3,
+.eventos_item h4,
+.eventos_item h5{
+    padding-left: 1rem;
+}
+
+.eventos_item button{
+    outline: none;
+    border: none;
+    background-color: var(--Cor_-_Preto);
+    color: var(--Cor_-_Branco);
+    margin-right: 1rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.eventos_botao button:hover,
+.eventos_item button:hover{
+    background-color: var(--Cor_-_Amarelo);
+}
+
+.eventos_botao button{
+    outline: none;
+    border: none;
+    background-color: var(--Cor_-_Preto);
+    color: var(--Cor_-_Branco);
+    padding: 0.75rem 0;
+    width: 148px;
+    cursor: pointer;
+    transition: 0.5s;
+}

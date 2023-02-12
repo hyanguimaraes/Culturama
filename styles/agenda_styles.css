@@ -1,0 +1,70 @@
+/* AGENDA */
+
+.agenda_titulo {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.agenda_item {
+    background-color: var(--Cor_-_Cinza_claro);
+}
+
+.agenda_item img {
+    width: 100%;
+}
+
+.agenda_item .agenda_informacoes {
+    text-align: center;
+    font-family: var(--Fonte_-_Titulos);
+    background-color: var(--Cor_-_Cinza_escuro);
+    color: var(--Cor_-_Branco);
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.agenda_informacoes h3 {
+    font-size: 2rem;
+}
+
+.agenda_informacoes h4,
+.agenda_informacoes h5 {
+    font-size: 1.5rem;
+}
+
+.agenda_item .agenda_atracao {
+    text-align: center;
+    padding: 1rem;
+}
+
+.agenda_atracao h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.agenda_atracao button {
+    outline: none;
+    border: none;
+    background-color: var(--Cor_-_Preto);
+    color: var(--Cor_-_Branco);
+    padding: .5rem 0;
+    width: 125px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.agenda_botao button:hover,
+.agenda_atracao button:hover{
+    background-color: var(--Cor_-_Amarelo);
+}
+
+.agenda_botao button{
+    outline: none;
+    border: none;
+    background-color: var(--Cor_-_Preto);
+    color: var(--Cor_-_Branco);
+    padding: 0.75rem 0;
+    width: 148px;
+    cursor: pointer;
+    transition: 0.5s;
+}

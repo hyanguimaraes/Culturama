@@ -3,6 +3,8 @@
 @import url("header_styles.css");
 @import url("banners_styles.css");
 @import url("categorias_styles.css");
+@import url("eventos_styles.css");
+@import url("agenda_styles.css");
 
 /*DADOS BASE*/
 :root{
