@@ -120,13 +120,14 @@
     }
 
     .categorias_destaques{
+        margin-left: 0.875rem;
         grid-column: 2/3;
         grid-row: 2/3;
     }
 
     .categorias_imagem{
         background-image: url("/assets/img/Desktop/Destaque/Imagem+título.png");
-        margin: 1.75rem 0 0 0;
+        margin: 1.75rem 0 0 0.875rem;
         background-size: cover;
         height: 224px;
         grid-column: 2/3;

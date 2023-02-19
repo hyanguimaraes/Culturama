@@ -13,9 +13,17 @@
     gap: 1rem;
 }
 
+.agenda_oculto{
+    display: none;
+}
+
 .agenda_item {
     background-color: var(--Cor_-_Cinza_claro);
     display: grid;
+    width: 100%;
+    flex-grow: 1;
+    max-width: 400px;
+    max-height: 350px;
 }
 
 .agenda_item img {
@@ -36,6 +44,7 @@
     grid-row: 2/3;
     grid-column: 1/2;
     min-width: 150px;
+    min-height: 131px;
 }
 
 .agenda_informacoes h3 {
@@ -95,5 +104,13 @@
 @media screen and (min-width: 720px){
     .agenda_lista{
         flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+        justify-content: end;
+    }
+
+    .agenda_item{
+        width: 307px;
     }
 }

@@ -82,7 +82,7 @@
 @media screen and (min-width: 720px){
     .cabecalho_menu{
         padding: 0 2.5em;
-        column-gap: 75px;
+        column-gap: 95px;
     }
 
     .cabecalho_titulo{
