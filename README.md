@@ -21,7 +21,7 @@ Página inicial de uma empresafictícia de eventos chamada Culturama criada nas 
 ![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado.gif)
 
 
-[🔗 Acesse o projeto](https://hyanguimaraes.github.io/culturama/)
+[🔗 Acesse o projeto](https://hyanguimaraes.github.io/Culturama/)
 
 [📚 Página do curso "Praticando CSS: Grid e Flexbox"](https://www.alura.com.br/curso-online-praticando-css-grid-flexbox--amp?gclid=CjwKCAiA0cyfBhBREiwAAtStHFE65Z-o5haHu1hE1pxKeXRuoIbBqunmjE1H_x8d2i6W2A2_bNDfABoCiq4QAvD_BwE)
 
