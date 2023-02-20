@@ -1,29 +1,29 @@
 <h1 align="center"> Culturama </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado_v2.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado.gif#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/culturama?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/culturama?style=plastic)
 
 📝 Descrição do projeto
 ---
-ALTERAR DESCRIÇÃO -> Site da empresa fictícia AluraBooks foi criado nas versões _mobile_, _tablet_ e _desktop_, para estudo no curso "HTML & CSS - Responsividade com mobile-first". O projeto foi todo desenvolvido seguindo a metodologia _Mobile first_ e o design no [Figma](https://www.figma.com/file/OUiV77dAZA6Mw7vLRq57Fz/AluraBooks-(Copy)) disponibilizado pela [Alura](https://www.alura.com.br/). Este projeto foi um desafio para mim pois eu nunca tinha feito um carrossel antes. Para fazer o carrossel deste projeto, inicialmente foi utilizado o [SwiperJS](https://swiperjs.com/get-started#use-swiper-from-cdn), porém, como houveram conflitos entre a GitHub page e a API (o carrossel não carregava na GitHub page), resolvi fazer meu próprio carrossel usando CSS e JavaScript. Também foi usado JavaScript para ativar o menu hambúrguer e algumas classes específicas. Além disso, o projeto foi dividido em diversos arquivos para facilitar encontrar trechos específicos de código se necessária alguma refatoração.
+Página inicial de uma empresafictícia de eventos chamada Culturama criada nas versões _mobile (360px)_, _tablet (720px)_ e _desktop (1440px)_, como estudo de caso no curso "Praticando CSS: Grid e Flexbox". O projeto foi todo desenvolvido seguindo a metodologia _Mobile first_ e o design no [Figma](https://www.figma.com/file/mC6DmuXPGWHYkMWOQD3khm/2713---Praticando-CSS%3A-Grid-e-Flexbox) disponibilizado pela [Alura](https://www.alura.com.br/). A ideia aqui era praticar o uso do _Flexbox_ e do _Grid_ e saber onde e como usar cada um, dependendo da sua necessidade. Para mim, este projeto serviu mais como uma revisão / prática, uma vez que eu já trabalho com ambos os métodos desde o início da minha formação como desenvolvedor.
 
 <h3>✅ Versão mobile 360px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_mobile_finalizado_v2.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_mobile_finalizado.gif)
 
 <h3>✅ Versão tablet 720px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_tablet_finalizado_v2.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_tablet_finalizado.gif)
 
 <h3>✅ Versão desktop 1440px 🖥️</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado_v2.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado.gif)
 
 
 [🔗 Acesse o projeto](https://hyanguimaraes.github.io/culturama/)
 
-[📚 Página do curso "HTML e CSS: Responsividade com mobile-first" na plataforma Alura](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first)
+[📚 Página do curso "Praticando CSS: Grid e Flexbox"](https://www.alura.com.br/curso-online-praticando-css-grid-flexbox--amp?gclid=CjwKCAiA0cyfBhBREiwAAtStHFE65Z-o5haHu1hE1pxKeXRuoIbBqunmjE1H_x8d2i6W2A2_bNDfABoCiq4QAvD_BwE)
 
 🛠️ Tecnologias utilizadas
 ---
