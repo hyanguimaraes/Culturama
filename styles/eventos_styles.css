@@ -20,59 +20,65 @@
 .eventos_item{
     background-color: var(--Cor_-_Cinza_claro);
     width: 100%;
-    min-height: 318px;
-    padding-bottom: 1rem;    
+    min-height: 318px;  
     display: grid;
-    row-gap: 1rem;
     align-items: center;
     flex-grow: 1;
     max-width: 400px;
     max-height: 350px;
+    grid-template-areas:
+        "imagem imagem"
+        "nome nome"
+        "data data"
+        "local botao";
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2 1fr) auto;
 }
 
-.eventos_item img{
+.eventos_item img,
+.eventos_oculto img{
+    margin-top: 0;
     width: 100%;
-    grid-row: 1/2;
-    grid-column: 1/3;
-}
-
-.eventos_item h3{
-    font-size: 18px;
-    font-weight: 600;
-    grid-row: 2/3;
-    grid-column: 1/2;
-}
-
-.eventos_item h4{
-    grid-row: 3/4;
-    grid-column: 1/2;
-}
-
-.eventos_item h5{
-    grid-row: 4/5;
-    grid-column: 1/2;
+    height: 100%;
+    grid-area: imagem;
 }
 
 .eventos_item h3,
+.eventos_oculto h3{
+    font-size: 18px;
+    font-weight: 600;
+    grid-area: nome;
+}
+
 .eventos_item h4,
-.eventos_item h5{
+.eventos_oculto h4{
+    grid-area: data;
+}
+
+.eventos_item h5
+.eventos_oculto h5{
+    grid-area: local;
+}
+
+.eventos_item h3, .eventos_oculto h3,
+.eventos_item h4, .eventos_oculto h4,
+.eventos_item h5, .eventos_oculto h5{
     padding-left: 1rem;
 }
 
-.eventos_item button{
+.eventos_item button,
+.eventos_oculto button{
     outline: none;
     border: none;
     background-color: var(--Cor_-_Preto);
     color: var(--Cor_-_Branco);
-    margin-right: 1rem;
     text-align: center;
     padding: 0.5rem 0;
     width: 80px;
     cursor: pointer;
     transition: 0.5s;
-    grid-row: 4/5;
-    grid-column: 2/3;
-    justify-self: end;
+    grid-area: botao;
+    margin-right: 1rem;
 }
 
 .eventos_botao button:hover,
@@ -114,66 +120,36 @@
     .eventos_titulo{
         margin: 1rem 0;
     }
+    
     .eventos_lista{
         display: grid;
-        row-gap: 1.5rem;
-        column-gap: 1.5rem;
-        grid-template-areas:
-        "evento1 evento2 evento3 evento4"
-        "evento5 evento6 evento7 evento8";
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
     }
 
-    .eventos_item{
+    .eventos_item, .eventos_oculto{
         width: 282px;
-        height: 294px;
     }
 
     .eventos_oculto{
         background-color: var(--Cor_-_Cinza_claro);
         width: 100%;
-        min-height: 318px;
-        padding-bottom: 1rem;    
+        min-height: 318px;  
         display: grid;
-        row-gap: 1rem;
         align-items: center;
         flex-grow: 1;
-        max-width: 400px;
         max-height: 350px;
+        grid-template-areas:
+            "imagem imagem"
+            "nome nome"
+            "data data"
+            "local botao";
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto repeat(2 1fr) auto;
     }
 
-    .eventos_item:nth-child(1){
-        grid-area: evento1;
-    }
-
-    .eventos_item:nth-child(2){
-        grid-area: evento2;
-    }
-
-    .eventos_item:nth-child(3){
-        grid-area: evento3;
-    }
-
-    .eventos_item:nth-child(4){
-        grid-area: evento4;
-    }
-
-    .eventos_item:nth-child(5){
-        grid-area: evento5;
-    }
-
-    .eventos_item:nth-child(6){
-        grid-area: evento6;
-    }
-
-    .eventos_item:nth-child(7){
-        grid-area: evento7;
-    }
-
-    .eventos_item:nth-child(8){
-        grid-area: evento8;
-    }
-
-    .eventos_botao button{
-        display: none;
+    .eventos_botao{
+        grid-column: 4/5;
+        justify-content: end;
     }
 }

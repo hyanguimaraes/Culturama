@@ -1,0 +1,48 @@
+/* FOOTER */
+
+.rodape {
+    color: var(--Cor_-_Cinza_claro);
+    background-color: black;
+    margin: 1rem 0;
+    font-size: 14px;
+    font-family: var(--Fonte_-_Textos);
+    padding: 1rem 1.5rem;
+    line-height: 2;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape_lista {
+    width: 135px;
+}
+
+.rodape_titulo {
+    font-size: 18px;
+    font-family: var(--Fonte_-_Titulos);
+}
+
+.rodape_logo {
+    font-size: 12px;
+    align-self: end;
+}
+
+.rodape_logo h4 {
+    background-image: url("/assets/img/Logo_Culturama_branco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75px;
+}
+
+@media screen and (min-width: 720px){
+    .rodape{
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .rodape{
+        padding: 1rem 7.5rem;
+    }
+}
