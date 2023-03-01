@@ -1,6 +1,6 @@
 <h1 align="center"> Culturama </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado.gif#vitrinedev)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_desktop_finalizado.gif#vitrinedev)
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/culturama?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/culturama?style=plastic)
 
@@ -10,15 +10,15 @@ Página inicial de uma empresafictícia de eventos chamada Culturama criada nas 
 
 <h3>✅ Versão mobile 360px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_mobile_finalizado.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_mobile_finalizado.gif)
 
 <h3>✅ Versão tablet 720px 📱</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_tablet_finalizado.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_tablet_finalizado.gif)
 
 <h3>✅ Versão desktop 1440px 🖥️</h3>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/Culturama_desktop_finalizado.gif)
+![](https://raw.githubusercontent.com/hyanguimaraes/culturama/main/assets/img/readme/culturama_desktop_finalizado.gif)
 
 
 [🔗 Acesse o projeto](https://hyanguimaraes.github.io/Culturama/)
