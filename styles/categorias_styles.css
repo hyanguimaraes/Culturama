@@ -76,7 +76,7 @@
 
 .categorias_imagem{
     margin-bottom: 1.5rem;
-    background-image: url("/assets/img/Mobile/Destaques/Destaque+título.png");
+    background-image: url("/assets/img/mobile/destaques/destaque_titulo.png");
     background-repeat: no-repeat;
     height: 271px;
     background-size: contain;
@@ -98,7 +98,7 @@
     }
 
     .categorias_imagem{
-        background-image: url("/assets/img/Tablet/Destaque/Imagem\ Destaque+\ título.png");
+        background-image: url("/assets/img/tablet/destaque/destaque_titulo.png");
         background-size: cover;
     }
 }
@@ -126,7 +126,7 @@
     }
 
     .categorias_imagem{
-        background-image: url("/assets/img/Desktop/Destaque/Imagem+título.png");
+        background-image: url("/assets/img/desktop/destaque/imagem_titulo.png");
         margin: 1.75rem 0 0 0.875rem;
         background-size: cover;
         height: 224px;
